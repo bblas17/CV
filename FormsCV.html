@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            max-width: 880px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.2em;
+        }
+        h2 {
+            font-size: 1.8em;
+            margin-top: 2em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            text-align: justify;
+            margin: 1em 0;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    
+        <p>Formulario de nivel de estudios y habilidades técnicas:</p>
+
+    <form>
+
+        <p>Datos personales</p>
+      
+        <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" value="Bernardo"><br>
+        <label for="lname">Apellido paterno:</label><br>
+            <input type="text" id="lname" name="lname" value="Blas"><br>
+        <label for="llname">Apellido materno:</label><br>
+            <input type="text" id="llname" name="llname" value="Rodríguez"><br>
+        <label for="email">Correo electrónico:</label><br>
+            <input type="text" id="email" name="email" value="bblas17@gmail.com"><br>
+        <label for="nacimiento">Fecha de nacimiento [dd/mm/aaaa]</label><br>
+            <input type=“date” ><br>
+
+        <p>Nivel Máximo de estudios</p>
+
+        <input type="radio" id="Primaria" name="nivel_estudios" value="Primaria">
+            <label for="javascript">Primaria</label><br>
+        <input type="radio" id="Secundaria" name="nivel_estudios" value="Secundaria">
+        <label for="html">Secundaria</label><br>
+        <input type="radio" id="Preparatoria" name="nivel_estudios" value="Preparatoria">
+        <label for="css">Preparatoria</label><br>
+        <input type="radio" id="Licenciatura" name="nivel_estudios" value="Licenciatura">
+        <label for="javascript">Licenciatura</label><br>
+        <input type="radio" id="Ingeniería" name="nivel_estudios" value="Ingeniería">
+        <label for="javascript">Ingeniería</label><br>
+        <input type="radio" id="Maestría" name="nivel_estudios" value="Maestría">
+        <label for="javascript">Maestría</label><br>
+        <input type="radio" id="Doctorado" name="nivel_estudios" value="Doctorado">
+        <label for="javascript">Doctorado</label>
+
+        <p>Seleccione las herramientas de ofimatica que domina:</p>
+
+        <input type="checkbox" id="office1" name="office1" value="Word">
+        <label for="vehicle1"> Word</label><br>
+        <input type="checkbox" id="office2" name="office2" value="Excel">
+        <label for="vehicle2"> Excel</label><br>
+        <input type="checkbox" id="office3" name="office3" value="Power Point">
+        <label for="vehicle3"> Power Point</label><br>
+        <input type="checkbox" id="office4" name="office4" value="Access">
+        <label for="vehicle3"> Access</label><br>
+        <input type="checkbox" id="office5" name="office5" value="Outlook">
+        <label for="vehicle3"> Outlook</label><br>
+
+        <p>Enliste sus habilidades blandas:</p>
+        <textarea name="soft_skills" id="soft_skills" cols="73" rows="17""></textarea><br><br>
+
+         <input type="submit" value="Submit">
+    </form> 
+    
+
+    <center><a href="index.html">
+        <img src="img/inicio.png" alt="Inicio" width="70px">
+    </a></center>
+
+</body>
+</html>
